@@ -67,7 +67,4 @@ class SettingsViewController: UIViewController {
         performSegue(withIdentifier: "unwindSegue", sender: nil)
         delegate?.setColor(color)
     }
-    
-        
-    
 }
